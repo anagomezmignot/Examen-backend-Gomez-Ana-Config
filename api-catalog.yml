@@ -5,9 +5,9 @@ spring:
     name: api-catalog
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/digitalhouse-dev
-    username: usr-digitalhouse
-    password: pwd-digitalhouse
+    url: jdbc:mysql://localhost:3307/catalog-dev
+    username: usr-catalog
+    password: pwd-catalog
   jpa:
     hibernate.ddl-auto: update
     generate-ddl: true
